@@ -3,7 +3,8 @@
   "keymap": "default",
   "layout": "LAYOUT",
   "layer_names": [
-    "base",
+    "qwerty",
+    "fnNum",
     "mod"
   ],
   "layers": [
@@ -13,7 +14,15 @@
            "&kp CAPSLOCK",      "&kp A",      "&kp S",  "&kp D",     "&kp F",  "&kp G",                 "&kp LEFT_BRACE", "&kp LEFT_META",     "&none",                       "&none", "&kp LEFT_ALT",       "&kp RIGHT_BRACE",  "&kp H",     "&kp J",     "&kp K",    "&kp L", "&kp SEMI",       "&kp SQT",
               "&kp LSHFT",      "&kp Z",      "&kp X",  "&kp C",     "&kp V",  "&kp B",                                                        "&none",                       "&none",                                           "&kp N",     "&kp M", "&kp COMMA",  "&kp DOT", "&kp FSLH",   "&kp PAGE_UP",
        "&kp LEFT_CONTROL", "&kp INSERT", "&kp SYSREQ", "&tog 1", "&kp MINUS",                             "&kp CAPSLOCK", "&kp BACKSPACE", "&kp SPACE",                     "&kp DEL",    "&kp ENTER",             "&kp SPACE",           "&kp EQUAL",    "&tog 2", "&kp HOME",  "&kp END", "&kp PAGE_DOWN"
-    ], [
+    ],
+    [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ],
+    [
         "&none", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",                 "&none",                                                                                     "&trans",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",           "&bootloader",                                                                                "&bootloader",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                 "&none",  "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
